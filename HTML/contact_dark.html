@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-[#0f2c3f] text-white min-h-screen flex flex-col items-center justify-center px-4 transition-colors duration-300"
+  >
+    <!-- Navbar -->
+    <nav
+      class="w-full flex justify-between items-center py-6 px-10 text-gray-300"
+    >
+      <a href="home_dark.html" class="text-sm">Home</a>
+      <div class="flex items-center space-x-4">
+        <a href="more_dark_project.html" class="text-sm">Projects</a>
+
+        <!-- Toggle Button -->
+        <button
+          onclick="window.location.href='contact_light.html'"
+          class="text-xl focus:outline-none"
+          aria-label="Switch to light mode"
+        >
+          ☀️
+        </button>
+
+        <button
+          class="bg-gradient-to-r from-green-400 to-cyan-400 text-black font-semibold px-4 py-2 rounded"
+        >
+          Contact
+        </button>
+      </div>
+    </nav>
+
+    <!-- Contact Form -->
+    <div class="w-full max-w-md mt-8 text-gray-200">
+      <form class="space-y-5">
+        <div>
+          <label for="name" class="block mb-1 text-sm">Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Example"
+            class="w-full px-4 py-2 bg-transparent border border-gray-400 rounded text-white focus:outline-none focus:ring-2 focus:ring-cyan-400"
+          />
+        </div>
+
+        <div>
+          <label for="email" class="block mb-1 text-sm">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Value"
+            required
+            class="w-full px-4 py-2 bg-transparent border border-gray-400 rounded text-white focus:outline-none focus:ring-2 focus:ring-cyan-400"
+          />
+          <span class="text-xs text-red-400 mt-1">input required</span>
+        </div>
+
+        <div>
+          <label for="message" class="block mb-1 text-sm">Message</label>
+          <textarea
+            id="message"
+            rows="5"
+            placeholder="Hi, I will ..."
+            class="w-full px-4 py-2 bg-transparent border border-cyan-400 rounded text-white focus:outline-none focus:ring-2 focus:ring-cyan-400"
+          ></textarea>
+        </div>
+
+        <button
+          type="submit"
+          class="w-full py-2 font-semibold bg-gradient-to-r from-green-400 to-cyan-400 text-black rounded hover:opacity-90 transition duration-200"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Ethiopic:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    class="bg-white text-gray-900 transition-colors duration-300"
+    style="margin-left: 50px; margin-right: 50px"
+  >
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-6">
+      <a href="home_light.html" class="text-sm font-medium text-gray-700">
+        Home
+      </a>
+      <div class="flex items-center space-x-6">
+        <a
+          href="#"
+          class="text-sm font-medium text-gray-900 border-b-2 border-purple-600"
+        >
+          Projects
+        </a>
+
+        <!-- 🌙 Toggle Dark Mode -->
+        <button
+          onclick="window.location.href='more_dark_project.html'"
+          class="text-xl hover:text-purple-600 focus:outline-none"
+          aria-label="Switch to dark mode"
+        >
+          🌙
+        </button>
+
+        <button
+          class="bg-purple-600 text-white text-sm px-4 py-2 rounded hover:bg-purple-700 transition"
+        >
+          <a href="contact_light.html">Contact</a>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="px-6 py-4">
+      <h2 class="text-xl font-semibold mb-6">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Project Card 1 -->
+        <div class="bg-white shadow rounded-lg overflow-hidden">
+          <img
+            src="../images/hospital_databse.png"
+            alt="Hospital DBMS"
+            class="w-full h-48 object-contain bg-gray-100"
+          />
+          <div class="p-4">
+            <h3 class="font-semibold mb-2">
+              Hospital Database Management System
+            </h3>
+            <div class="flex space-x-2 mb-2">
+              <span class="text-xs bg-purple-700 text-white px-2 py-1 rounded"
+                >WORKBENCH</span
+              >
+              <span class="text-xs bg-purple-700 text-white px-2 py-1 rounded"
+                >MYSQL</span
+              >
+            </div>
+            <p class="text-sm text-gray-600">
+              A hospital management system which uses advanced concepts of
+              Database management system like Normalization, Primary keys,
+              Foreign keys.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="bg-white shadow rounded-lg overflow-hidden">
+          <img
+            src="../images/cpp.png"
+            alt="Online Book Store"
+            class="w-full h-48 object-contain bg-gray-100"
+          />
+          <div class="p-4">
+            <h3 class="font-semibold mb-2 capitalize">online Book Store</h3>
+            <div class="flex space-x-2 mb-2">
+              <span class="text-xs bg-purple-700 text-white px-2 py-1 rounded"
+                >C++</span
+              >
+              <span class="text-xs bg-purple-700 text-white px-2 py-1 rounded"
+                >MYSQL</span
+              >
+            </div>
+            <p class="text-sm text-gray-600">
+              Online Book store used to sell and buy books in different areas
+              online. Includes payment methods.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="bg-white shadow rounded-lg overflow-hidden">
+          <img
+            src="../images/internship.png"
+            alt="Internship Portal"
+            class="w-full h-48 object-contain bg-gray-100"
+          />
+          <div class="p-4">
+            <h3 class="font-semibold mb-2">InternConnect</h3>
+            <p class="text-sm text-gray-600">
+              Discover exciting internship opportunities and launch your career.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project Card 4 -->
+        <div class="bg-white shadow rounded-lg overflow-hidden">
+          <div
+            class="w-full h-48 overflow-hidden flex items-center justify-center bg-gray-100"
+          >
+            <img
+              src="../images/netflix_clone_landingpage.png"
+              alt="Netflix Clone"
+              class="h-full w-auto"
+            />
+          </div>
+          <div class="p-4">
+            <h3 class="font-semibold mb-2">Netflix Clone</h3>
+            <p class="text-sm text-gray-600">
+              Unlimited movies, TV shows, and more. Watch anywhere. Cancel
+              anytime.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

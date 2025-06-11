@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jossy Yoseph Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Ethiopic:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .gradient-text {
+        background: linear-gradient(to right, #2ad5d8, #00e6e6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .gradient-bg {
+        background: linear-gradient(to right, #2ad5d8, #00e6e6);
+      }
+    </style>
+  </head>
+  <body
+    class="bg-[#0f2c3f] text-white"
+    style="margin-left: 50px; margin-right: 50px"
+  >
+    <header class="flex justify-between items-center px-10 py-6">
+      <div><a href="#">Home</a></div>
+      <nav
+        class="w-full flex justify-between items-center py-6 px-4 md:px-10 text-gray-200"
+      >
+        <a href="web_desktop_dark.html" class="text-sm">Home</a>
+        <div class="flex items-center space-x-6">
+          <a
+            href="more_dark_project.html"
+            class="text-sm border-b-2 border-cyan-400 pb-1"
+            >Projects</a
+          >
+
+          <!-- ☀️ Light Mode Toggle Button -->
+          <button
+            onclick="window.location.href='home_light.html'"
+            class="text-xl hover:text-cyan-400 focus:outline-none"
+            aria-label="Switch to light mode"
+          >
+            ☀️
+          </button>
+
+          <button
+            class="bg-gradient-to-r from-cyan-400 to-green-400 text-black font-semibold px-4 py-2 rounded hover:from-cyan-300 hover:to-green-300 transition"
+          >
+            <a href="contact_dark.html">Contact</a>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <section
+      class="text-center md:text-left px-10 md:flex justify-between items-center py-20"
+    >
+      <div>
+        <p class="text-sm text-gray-300">WEB DEVELOPER</p>
+        <h1 class="text-4xl md:text-5xl font-bold gradient-text">
+          Jossy Yoseph
+        </h1>
+        <p class="mt-2 text-sm text-gray-400">
+          Software Engineer | Fullstack web Developer | UX/UI Designer <br />
+          | Node.js | PHP | React.js | Mysql | Firebase
+        </p>
+        <button class="mt-4 gradient-bg text-black px-4 py-2 rounded">
+          <a href="contact_dark.html">Contact Me</a>
+        </button>
+      </div>
+      <div class="mt-10 md:mt-0">
+        <img
+          src="../images/profile_photo-removebg-preview.png"
+          alt="Jossy Yoseph"
+          class="w-80 mx-auto"
+        />
+      </div>
+    </section>
+
+    <div class="text-center text-white text-2xl">&#8595;</div>
+
+    <section class="px-10 py-10 max-w-4xl mx-auto">
+      <h2 class="text-xl font-semibold mb-2 gradient-text">About me</h2>
+      <div class="border-l-4 border-[#00e6e6] pl-4 text-sm text-gray-300">
+        <p>
+          A software engineer with 2 years of hands-on experience in both
+          frontend and backend development. I specialize in building clean,
+          scalable, and efficient web applications using modern technologies.
+        </p>
+        <p class="mt-2">
+          My journey started with a passion for problem-solving and digital
+          design, which led me to gain strong experience in JavaScript, Node.js,
+          and PHP—powering everything from dynamic user interfaces to complex
+          server-side logic. I’ve worked on full-cycle development projects,
+          from designing responsive interfaces to integrating APIs and managing
+          databases.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="px-10 py-10 max-w-6xl mx-auto">
+      <h2 class="text-xl font-semibold mb-6 gradient-text">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-[#0f2a38] p-4 rounded">
+          <img
+            src="images/seto.jpg"
+            alt="Project 1"
+            class="w-full h-56 object-contain bg-gray-900 rounded mb-4"
+          />
+          <h3 class="font-semibold text-white mb-2">
+            Online Kebele Appointment
+          </h3>
+          <div class="flex gap-2 flex-wrap text-xs mb-2">
+            <span class="gradient-bg text-black px-2 py-0.5 rounded"
+              >JAVASCRIPT</span
+            >
+            <span class="gradient-bg text-black px-2 py-0.5 rounded"
+              >MYSQL</span
+            >
+            <span class="gradient-bg text-black px-2 py-0.5 rounded">PHP</span>
+            <span class="gradient-bg text-black px-2 py-0.5 rounded"
+              >HTML/CSS</span
+            >
+          </div>
+          <p class="text-sm text-gray-300">
+            Online kebele Appointment for Seto Semero kebele which is found in
+            Jimma city. The kebele's residents can get appointments for
+            different services provided by the kebele.
+          </p>
+        </div>
+        <div class="bg-[#0f2a38] p-4 rounded">
+          <img
+            src="images/chat app.jpg"
+            alt="Project 2"
+            class="w-full h-56 object-contain bg-gray-900 rounded mb-4"
+          />
+          <h3 class="font-semibold text-white mb-2">Chat App</h3>
+          <div class="flex gap-2 flex-wrap text-xs mb-2">
+            <span class="gradient-bg text-black px-2 py-0.5 rounded"
+              >SWING</span
+            >
+            <span class="gradient-bg text-black px-2 py-0.5 rounded"
+              >MYSQL</span
+            >
+            <span class="gradient-bg text-black px-2 py-0.5 rounded">JAVA</span>
+          </div>
+          <p class="text-sm text-gray-300">
+            Simple chat app which can handle group and private chats and uses
+            advanced concepts of Java.
+          </p>
+        </div>
+      </div>
+      <div class="text-center mt-6">
+        <button class="gradient-bg text-black px-6 py-2 rounded">
+          <a href="more_dark_project.html"> SEE ALL PROJECTS</a>
+        </button>
+      </div>
+    </section>
+
+    <section class="px-10 py-10 text-center max-w-6xl mx-auto">
+      <h2 class="text-xl font-semibold mb-6 gradient-text">Skills</h2>
+      <div class="grid grid-cols-5 gap-6 text-sm text-gray-300 mb-6">
+        <div>
+          <img
+            src="https://skillicons.dev/icons?i=js"
+            class="mx-auto mb-1"
+          />JAVASCRIPT
+        </div>
+        <div>
+          <img
+            src="https://skillicons.dev/icons?i=ts"
+            class="mx-auto mb-1"
+          />TYPESCRIPT
+        </div>
+        <div>
+          <img
+            src="https://skillicons.dev/icons?i=mongodb"
+            class="mx-auto mb-1"
+          />MONGO DB
+        </div>
+        <div>
+          <img
+            src="https://skillicons.dev/icons?i=postgres"
+            class="mx-auto mb-1"
+          />POSTGRESQL
+        </div>
+        <div>
+          <img
+            src="https://skillicons.dev/icons?i=java"
+            class="mx-auto mb-1"
+          />JAVA
+        </div>
+      </div>
+      <div class="grid grid-cols-5 gap-6 text-sm text-gray-300 mb-6">
+        <div>
+          <img
+            src="https://skillicons.dev/icons?i=express"
+            class="mx-auto mb-1"
+          />EXPRESS JS
+        </div>
+        <div>
+          <img
+            src="https://skillicons.dev/icons?i=nestjs"
+            class="mx-auto mb-1"
+          />NEST JS
+        </div>
+        <div>
+          <img
+            src="https://skillicons.dev/icons?i=nodejs"
+            class="mx-auto mb-1"
+          />NODE JS
+        </div>
+        <div>
+          <img
+            src="https://skillicons.dev/icons?i=react"
+            class="mx-auto mb-1"
+          />REACT JS
+        </div>
+        <div>
+          <img
+            src="https://skillicons.dev/icons?i=react"
+            class="mx-auto mb-1"
+          />REACT NATIVE
+        </div>
+      </div>
+      <div class="flex justify-center gap-12 text-sm text-gray-300">
+        <div>
+          <img
+            src="https://skillicons.dev/icons?i=php"
+            class="mx-auto mb-1"
+          />PHP
+        </div>
+        <div>
+          <img
+            src="https://skillicons.dev/icons?i=redux"
+            class="mx-auto mb-1"
+          />REDUX
+        </div>
+        <div>
+          <img
+            src="https://skillicons.dev/icons?i=git"
+            class="mx-auto mb-1"
+          />GIT
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center text-sm text-gray-500 py-10">
+      <div class="flex justify-center gap-10 mb-4">
+        <a href="mailto:jossyyoseph14@gmail.com"
+          ><img src="https://skillicons.dev/icons?i=gmail" class="w-5 mx-auto"
+        /></a>
+        <a href="https://www.linkedin.com/in/jossy" target="_blank"
+          ><img
+            src="https://skillicons.dev/icons?i=linkedin"
+            class="w-5 mx-auto"
+        /></a>
+        <a href="http://www.github.com/joccy-code"
+          ><img src="https://skillicons.dev/icons?i=github" class="w-5 mx-auto"
+        /></a>
+      </div>
+      <div class="flex justify-center gap-6 mb-1">
+        <a href="more_dark_project.html">Projects</a>
+        <a href="contact_dark.html">Contact</a>
+      </div>
+      <p>WEB DEVELOPER 2025</p>
+    </footer>
+  </body>
+</html>
