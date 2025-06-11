@@ -35,18 +35,18 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 
 ```
 portfolio/
+├── index.html
+├── README.md
 ├── HTML/
 │   ├── home_dark.html
-│   ├── home_light.html
 │   ├── contact_dark.html
 │   ├── contact_light.html
 │   ├── more_dark_project.html
 │   └── more_light_projects.html
 ├── images/
-│   ├── profile_photo.jpg
+│   ├── profile photo.jpg
 │   ├── seto.jpg
-│   ├── chat app.jpg
-│   └── other project images...
+│   └── chat app.jpg
 └── css/
     └── style.css
 ```
